@@ -1,8 +1,16 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "io.github.swowanders.twa",
-    "sha256_cert_fingerprints": ["91:0E:72:5C:03:51:DC:79:63:7C:43:97:6A:E4:63:4B:98:16:E6:28:7A:86:69:44:72:18:EF:51:75:A9:7B:EF"]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.swowanders.twa",
+      "sha256_cert_fingerprints": [
+        "91:0E:72:5C:03:51:DC:79:63:7C:43:97:6A:E4:63:4B:98:16:E6:28:7A:86:69:44:72:18:EF:51:75:A9:7B:EF",
+        "B7:09:C5:3A:32:53:76:D1:50:4C:30:F3:B8:77:B8:D2:77:51:7D:88:E0:F7:A8:EF:C9:A0:4D:9B:B8:10:C9:CB"
+      ]
+    }
   }
-}]
+]
