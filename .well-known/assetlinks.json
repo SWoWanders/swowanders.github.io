@@ -1,1 +1,8 @@
-
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "io.github.swowanders.twa",
+    "sha256_cert_fingerprints": ["91:0E:72:5C:03:51:DC:79:63:7C:43:97:6A:E4:63:4B:98:16:E6:28:7A:86:69:44:72:18:EF:51:75:A9:7B:EF"]
+  }
+}]
